@@ -87,7 +87,7 @@
 .header__theme-menu-button {
   border: 1px solid transparent;
   background-color: transparent;
-  color: var(--accent-color, #ff0070);
+  color: var(--highlight-color, #ff0070);
   text-transform: lowercase;
   font-size: 18px;
   cursor: pointer;
@@ -167,8 +167,6 @@
   color: var(--header-color, #000028);
 }
 
-
-
 .link {
   text-decoration: none;
 }
@@ -213,7 +211,6 @@
 .footer {
   display: grid;
   place-items: center;
-  min-height: 667px;
   min-block-size: 100vh;
 }
 
