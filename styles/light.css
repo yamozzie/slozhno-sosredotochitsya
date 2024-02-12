@@ -6,7 +6,7 @@
   --text-color: #353430;
   --page-title-color: #FFC2E6;
   --header-color: #353430;
-  --button-border-hover: rgba(255, 0, 112, 0.4);
+  --button-border-hover: rgba(50, 49, 45, 0.4);
   --highlight-color: #353430;
 
   --rec-decor-visibility: hidden;
@@ -21,7 +21,7 @@
     --text-color: #353430;
     --page-title-color: #FFC2E6;
     --header-color: #353430;
-    --button-border-hover: rgba(255, 0, 112, 0.4);
+    --button-border-hover: rgba(50, 49, 45, 0.4);
     --highlight-color: #353430;
   
     --rec-decor-visibility: hidden;
