@@ -293,7 +293,6 @@
   }
 
   .section {
-    margin-block-start: 140px;
     grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
     margin-block-start: 28px;
   }
