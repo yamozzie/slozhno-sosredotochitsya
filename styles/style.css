@@ -213,6 +213,7 @@
 .footer {
   display: grid;
   place-items: center;
+  min-height: 667px;
   min-block-size: 100vh;
 }
 
@@ -247,7 +248,7 @@
   border-inline-start: 1px solid var(--highlight-color, #ff0070);
   border-block-end: 1px solid var(--highlight-color, #ff0070);
   inset-inline-start: 10px;
-  inset-block-end: 10px;
+  inset-block-end: -30px;
 }
 
 @media (width >= 768px) {
@@ -259,7 +260,7 @@
   .page-title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     margin-inline-start: -20px;
-    margin-block-start: -60px;
+    margin-block-end: 100px;
   }
 
   .rec-decor {
@@ -279,22 +280,22 @@
   .header__title {
     justify-self: end;
     inline-size: 364px;
-    margin-block-start: 100px;
+    margin-block-end: 115px;
   }
 
   .decorated-zone::after {
-    inset-block-end: -90px;
+    inset-block-end: 20px;
   }
 
   .main {
     margin-inline: 20px;
-    margin-block-start: 47px;
+    margin-block-start: 35px;
   }
 
   .section {
     margin-block-start: 140px;
     grid-template-columns: clamp(236px, calc(100% / 3.25), 315px) 1fr;
-    margin-block-end: -110px;
+    margin-block-start: 28px;
   }
 
   .section-what__articles-list {
@@ -322,21 +323,22 @@
   }
 
   .footer {
-    margin-block-start: 225px;
+    margin-block-start: 0px;
   }
 
   .decorated-zone-footer::before {
     inset-inline-end: 20px;
-    inset-block-start: -35px;
+    inset-block-start: 85px;
   }
   
   .decorated-zone-footer::after {
     inset-inline-start: 20px;
-    inset-block-end: -55px;
+    inset-block-end: -45px;
   }
 
   .footer__title {
     margin-inline-start: -5px;
+    margin-block-start: 225px;
   }
 }
 
@@ -352,24 +354,20 @@
   }
 
   .page-title {
-    margin-block-start: -210px;
+    margin-block-start: 100px;
   }
 
   .header__title {
     inline-size: 491px;
-    margin-block-start: -310px;
-  }
-
-  .decorated-zone::after {
-    margin-block-end: 537px;
+    margin-block-start: 10px;
   }
 
   .main {
-    margin-block-start: -457px;
+    margin-block-start: 32px;
   }
 
   .section {
-    margin-block-start: 90px;
+    margin-block-start: 29px;
   }
 
   .section:first-child,
@@ -377,25 +375,21 @@
     gap: 30px;
   }
 
-  .section:not(:first-child) {
-    margin-block-start: 140px;
-  }
-
   .section-what__articles-list {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .footer {
-    margin-block-start: 20px;
+  .footer__title {
+    margin-block-start: 225px;
   }
 
   .decorated-zone-footer::before {
     inset-inline-end: 20px;
-    inset-block-start: 170px;
+    inset-block-start: 85px;
   }
   
   .decorated-zone-footer::after {
     inset-inline-start: 20px;
-    inset-block-end: 295px;
+    inset-block-end: -45px;
   }
 }
