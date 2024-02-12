@@ -36,7 +36,7 @@
   border-inline-start: 1px solid var(--highlight-color, #ff0070);
   border-block-end: 1px solid var(--highlight-color, #ff0070);
   inset-inline-start: 0px;
-  inset-block-end: 240px;
+  inset-block-end: 10px;
 }
 
 .rec-decor {
@@ -116,7 +116,7 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 95.7px;
   text-shadow: 4px 4px 0 #ff0070;
-  margin-block-start: -220px;
+  margin-block-start: -65px;
 }
 
 .shadow-decor {
@@ -130,7 +130,15 @@
 .header__title {
   font-weight: 700;
   line-height: 23.4px;
-  margin-block-start: -190px;
+  margin-block-start: -10px;
+}
+
+.main {
+  display: grid;
+  gap: 50px;
+  margin-inline: 10px;
+  line-height: 23.4px;
+  margin-block-start: 40px;
 }
 
 .section {
@@ -159,13 +167,7 @@
   color: var(--header-color, #000028);
 }
 
-.main {
-  display: grid;
-  gap: 50px;
-  margin-inline: 10px;
-  line-height: 23.4px;
-  margin-block-start: -190px;
-}
+
 
 .link {
   text-decoration: none;
@@ -218,7 +220,7 @@
   line-height: 99px;
   letter-spacing: 0em;
   text-align: left;
-  margin-block-end: -80px;
+  margin-block-start: 80px;
 }
 
 .decorated-zone-footer {
@@ -245,7 +247,7 @@
   border-inline-start: 1px solid var(--highlight-color, #ff0070);
   border-block-end: 1px solid var(--highlight-color, #ff0070);
   inset-inline-start: 10px;
-  inset-block-end: 200px;
+  inset-block-end: 10px;
 }
 
 @media (width >= 768px) {
